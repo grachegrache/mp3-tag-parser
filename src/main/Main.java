@@ -1,7 +1,7 @@
 package main;
 
-public class MP3Parsing{
+public class Main{
 	public static void main(String[] args){
-		new Parser();
+		new CreateFrame();
 	}
 }

@@ -42,6 +42,9 @@ public class ShowProgress extends JFrame{
 		getContentPane().add(progressBar);
 		
 		textArea = new JTextArea();
+		textArea.setLineWrap(true);
+		textArea.setEditable(false);
+		textArea.setWrapStyleWord(true);
 		
 		JScrollPane scrollPane = new JScrollPane(textArea);
 		scrollPane.setBounds(10, 57, 470, 150);
